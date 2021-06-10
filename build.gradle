@@ -17,10 +17,11 @@ repositories {
 
 dependencies {
 //	implementation 'com.amazonaws:DynamoDBLocal:1.12.0'
-	implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.11.64'
-	implementation 'com.github.derjust:spring-data-dynamodb:5.1.0'
+	implementation platform('software.amazon.awssdk:bom:2.15.0')
+	//implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.11.64'
+	//implementation 'com.github.derjust:spring-data-dynamodb:5.1.0'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
-	implementation 'org.springframework.data:spring-data-releasetrain:Lovelace-SR16'
+	//implementation 'org.springframework.data:spring-data-releasetrain:Lovelace-SR16'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
