@@ -1,5 +1,9 @@
 # Getting Started
 
+*** Work in progress ***
+
+Not ready to use yet...
+
 ## Downloading DynamoDB Locally
 
 https://s3.us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz
